@@ -1,0 +1,25 @@
+#include "resources.h"
+
+thumbnail         RCDATA  ".\\thumbnail.png"
+
+mainIcon		  ICON    ".\\Icons\\Icon.ico"
+mainIconSm		  ICON    ".\\Icons\\IconSm.ico"
+
+seekPoint         ICON    ".\\SeekPoint\\default.ico"
+seekPointPressed  ICON    ".\\SeekPoint\\pressed.ico"
+
+toolBarAdd        ICON    ".\\ToolBar\\add.ico"
+toolBarRemove     ICON    ".\\ToolBar\\remove.ico"
+toolBarSort       ICON    ".\\ToolBar\\sort.ico"
+
+// numbers according to the order of enum elements
+1100              RCDATA  ".\\Controls\\repeat.png"
+1101              RCDATA  ".\\Controls\\previous.png"
+1105              RCDATA  ".\\Controls\\pause.png"
+1102              RCDATA  ".\\Controls\\play.png"
+1103              RCDATA  ".\\Controls\\next.png"
+1104              RCDATA  ".\\Controls\\shuffle.png"
+
+1106              RCDATA  ".\\Controls\\no_repeat.png"
+1107              RCDATA  ".\\Controls\\repeat_one.png"
+//1108              RCDATA  ".\\Controls\\no_shuffle.png"
